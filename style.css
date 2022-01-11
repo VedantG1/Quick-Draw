@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(pink, cyan);
+}
+h1{
+    background-color: rgb(246, 168, 246);
+    margin: 0px;
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+    padding-left: 160px;
+}
+#show{
+    float: right;
+    font-size: 25px;
+}
+p{
+    font-size: 35px;
+}
+canvas{
+    animation-name: drawing;
+    border-radius: 20px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 2px solid black;
+    margin-top: 50px;
+    background-color: white;
+}
+@keyframes drawing{
+    from{box-shadow: 5px 5px 38px rgb(206, 241, 4)}
+    to{box-shadow: 5px 5px 38px rgb(149, 100, 230)}
+}
